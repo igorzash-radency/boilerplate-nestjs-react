@@ -14,7 +14,7 @@ Project description
 
 ---
 
-#### 0. What's shipped with this boilerplate?
+#### 0.1. What's shipped with this boilerplate?
 
 -   React (CRA) + NestJS applications
 -   Configured sequelize for PostgreSQL
@@ -23,6 +23,13 @@ Project description
 -   React Redux (+Saga)
 -   React Router
 -   docker-compose
+
+#### 0.2. Reference
+
+-   [Backend folder structure](./docs/backend.md)
+-   [Frontend folder structure](./docs/frontend.md)
+-   shared is a directory where common code is located in order to avoid duplication.
+    It's symlinked into backend and frontend during project initiazation.
 
 ---
 
